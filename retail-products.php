@@ -81,11 +81,11 @@ catch(PDOException $e) {
                     }
             echo $row['product_inStock']; ?></p>
         </div>
-    </section>
+    
     <?php
            }//end of foreach
     ?>
-
+    </section>
 </body>
 
 </html>
